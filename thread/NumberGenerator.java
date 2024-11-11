@@ -7,7 +7,7 @@ public class NumberGenerator implements Runnable {
         for (int i = 1; i <= 10; i++) {
             System.out.println("Số: " + i + " - HashCode: " + this.hashCode());
             try {
-                Thread.sleep(500); // Dừng 500 milliseconds
+                Thread.sleep(500);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
