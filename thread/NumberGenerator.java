@@ -23,7 +23,6 @@ public class NumberGenerator implements Runnable {
 
         thread1.setPriority(Thread.MAX_PRIORITY);
         thread2.setPriority(Thread.MIN_PRIORITY);
-        // Bắt đầu các thread
         thread1.start();
         thread2.start();
     }
